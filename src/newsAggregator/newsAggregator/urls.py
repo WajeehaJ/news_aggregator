@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import path
 from news_collector import views
 urlpatterns = [
+    path('',  views.home_view, name='home_view'),
     path('admin/', admin.site.urls),
-    path('news/',  views.news_view, name='news_view'),
-]
+    path(r'news/',  views.news_view, name='news_view'),
+
+]    
