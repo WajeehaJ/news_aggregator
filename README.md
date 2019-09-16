@@ -23,12 +23,14 @@ https://github.com/WajeehaJ/news_aggregator.git
 and copy the src folder to your news_aggregator_proj folder. 
 
 
-##Running the News-Aggregator
+## Running the News-Aggregator
+
 ```
 cd src
 django-admin startproject newsAggregator
 django-admin startapp news_collector 
 python manage.py runserver 
 ```
-##Running the News-Aggregator Unit Tests
+## Running the News-Aggregator Unit Tests
+
 python manage.py test news_collector
