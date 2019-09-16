@@ -1,5 +1,5 @@
 # news_aggregator
-## Installation Commands for Window 10 PowerShell:
+## Installing Django Web Framework for Window 10 PowerShell:
 
 ```
 pip  install virtualenv
@@ -33,4 +33,6 @@ python manage.py runserver
 ```
 ## Running the News-Aggregator Unit Tests
 
+```
 python manage.py test news_collector
+```
